@@ -1,0 +1,18 @@
+.cardButton{
+  color: white;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 2px;
+  box-shadow: none!important;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.55;
+  border-radius: .3rem;
+  cursor: pointer;
+}
