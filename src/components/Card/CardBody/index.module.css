@@ -1,7 +1,48 @@
-.cardBody{
+.card{
   background-color: white;
   border-radius: 8px;
   height: 400px;
   width: 280px;
   box-shadow: 0 23px 20px -20px rgba(115,162,208,.5), 0 0 15px rgba(115,162,208,.15);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cardImg{
+  width: 100%;
+  border-radius: calc(.25rem - 1px);
+  width: 100%;
+  border-top-left-radius: calc(.35rem - 1px);
+  border-top-right-radius: calc(.35rem - 1px);
+  vertical-align: middle;
+  border-style: none;
+  box-sizing: border-box;
+}
+
+.cardBody{
+  flex: 1 1 auto;
+  padding: 1.25rem 1.25rem 0;
+}
+
+.cardSubtitle{
+  margin-bottom: .5rem;
+  color: #798892!important;
+  margin-top: 0;
+}
+
+.cardTitle{
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+hr{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+.cardFooter{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 1.25rem 1.25rem;
 }
